@@ -1,0 +1,263 @@
+#display
+{
+	background-image: url('background.jpg');
+	width: 100%;
+	background-size: 100% 100%;
+	display: inline-block;
+	padding-bottom: 20px;
+}
+#vedio
+{
+	margin-bottom: 50px;
+}
+#vedio h1
+{
+	font-family: 'Merriweather', serif;
+}
+#text
+{
+	width: 50%;
+	font-family: 'Orbitron', sans-serif;
+	text-align: left;
+	padding: auto;
+}
+#form
+{
+	width: 50%;
+	text-align: center;
+}
+#form span
+{
+	color: white;
+}
+form
+{	
+	background-color: #595959;
+	padding-bottom: 20px;
+	margin-right: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#f_part
+{
+	float: left; width: 25%; text-align: center;
+}
+#text
+{
+	font-family: 'Orbitron', sans-serif;
+	text-align: left;
+	margin-top: 40px;
+	width: 50%;
+}
+.fa
+{
+	padding-right: 20px;
+	font-size: xx-large;
+	color: white;
+}
+#features
+{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	display: inline-block;width: 100%;
+}
+@media (max-width: 575.98px)
+{
+	#form span
+	{
+		font-size: medium;
+	}
+	#form
+	{
+		font-size: x-small;
+	}
+	#text
+	{
+		font-size: medium;
+	}
+	.d-flex a
+	{
+		font-size: x-small;
+	}
+	.navbar-brand
+	{
+		font-size: small;
+	}
+}
+@media (min-width: 576px)
+{
+	#form span
+	{
+		font-size: large;
+	}
+	#form
+	{
+		font-size: smaller;
+	}
+	#text
+	{
+		font-size:large;
+	}
+	.d-flex a
+	{
+		font-size: medium;
+	}
+	.navbar-brand
+	{
+		font-size: larger;
+	}
+}
+@media (min-width: 768px)
+{
+	#form span
+	{
+		font-size: larger;
+	}
+	#form
+	{
+		font-size: small;
+	}
+	#text
+	{
+		font-size: larger;
+	}
+	.d-flex a
+	{
+		font-size: large;
+	}
+	.navbar-brand
+	{
+		font-size: larger;
+	}
+}
+@media (min-width: 992px)
+{
+	#form span
+	{
+		font-size: x-large;
+	}
+	#form
+	{
+		font-size: small;
+	}
+	#text
+	{
+		font-size: x-large;
+	}
+	.d-flex a
+	{
+		font-size: medium;
+	}
+	.navbar-brand
+	{
+		font-size: larger;
+	}
+}
+@media (min-width: 1200px)
+{
+	#form span
+	{
+		font-size: xx-large;
+	}
+	#form
+	{
+		font-size: large;
+	}
+	#text
+	{
+		font-size: xx-large;
+	}
+	.d-flex a
+	{
+		font-size: xx-large;
+	}
+	.navbar-brand
+	{
+		font-size: xx-large;
+	}
+}
+@media (min-width: 1400px)
+{
+	#form span
+	{
+		font-size: xx-large;
+	}
+	#form
+	{
+		font-size: x-large;
+	}
+	#text
+	{
+		font-size: xx-large;
+	}
+	.d-flex a
+	{
+		font-size: x-large;
+	}
+	.navbar-brand
+	{
+		font-size: xx-large;
+	}
+}
+@keyframes examples
+{
+	0%
+	{
+		color: red;
+	}
+	25%
+	{
+		color: orange;
+	}
+	50%
+	{
+		color: white;
+	}
+	75%
+	{
+		color: yellow;
+	}
+	100%
+	{
+		color: blue;
+	}
+}
+.d-flex a
+{
+	text-decoration: none;
+	color: red;
+	animation-name: examples;
+	animation-duration: 6s;
+}
+mark
+{
+	background-color: #ccf5ff;
+	color: black;
+	animation-name: highlight;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+@keyframes highlight
+{
+	0%
+	{
+		background-color: #ccf5ff;
+		color: black;
+	}
+	25%
+	{
+		background-color: #ffc2b3;
+	}
+	50%
+	{
+		background-color: #ffffb3;
+	}
+	75%
+	{
+		background-color: #ccffb3;
+	}
+	100%
+	{
+		background-color: #ffccff;
+	}
+}
